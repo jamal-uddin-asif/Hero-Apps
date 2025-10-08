@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F431.png",
+    "title": "ChatMaster",
+    "companyName": "TalkSoft Inc",
+    "id": 1,
+    "description": "ChatMaster is your friendly AI companion for everyday conversations and small tasks. It learns your preferences and suggests smart replies over time. The app supports voice messages, quick reminders, and mood-based responses. You can customize themes, languages, and notification styles. Everything syncs across devices so you always have your chats available.",
+    "size": 45.2,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 770 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F436.png",
+    "title": "PhotoBurst",
+    "companyName": "PixelWorks",
+    "id": 2,
+    "description": "PhotoBurst gives you pro-level editing tools in a clean, simple interface. Use sliders for exposure, contrast, and color, or apply one-tap filters to speed up edits. There are layer and masking tools for advanced adjustments. Export hi-res images or share directly to social channels. The app includes community presets and step-by-step tutorials.",
+    "size": 88.7,
+    "reviews": 850,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F430.png",
+    "title": "FitTrack",
+    "companyName": "HealthSync",
+    "id": 3,
+    "description": "FitTrack keeps an eye on workouts, steps, and heart metrics in one place. Choose guided workouts or build your own routines with timer support. The app syncs with popular wearables and health services for accurate tracking. Weekly and monthly reports highlight your progress and trends. Social challenges and badges keep motivation high.",
+    "size": 52.4,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1375 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F42D.png",
+    "title": "NewsNow",
+    "companyName": "InfoMedia",
+    "id": 4,
+    "description": "NewsNow curates headlines from trusted sources and tailors them to your interests. Choose topics like tech, world, sports, or business to personalize your feed. Each story includes a short summary and a link to the full article. Save, share, or listen via text-to-speech while on the go. Push alerts keep you informed about breaking events.",
+    "size": 25.8,
+    "reviews": 600,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 205 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F437.png",
+    "title": "TaskHero",
+    "companyName": "Prodify",
+    "id": 5,
+    "description": "TaskHero helps you organize projects, tasks, and subtasks with a minimal interface. Add deadlines, priorities, and notes to each task. Use recurring schedules and smart reminders to stay on track. Daily digest emails summarize what’s due and what’s upcoming. Offline mode ensures your lists are available even when you lose connection.",
+    "size": 33.1,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 125 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F43C.png",
+    "title": "WeatherWise",
+    "companyName": "SkyInfo",
+    "id": 6,
+    "description": "WeatherWise provides accurate forecasts, hourly radar, and severe weather alerts. Save locations for quick access and view multi-day outlooks. The app shows humidity, wind, UV index, and sunrise/sunset times. Outfit suggestions and activity forecasts make planning easier. Share snapshots of the radar or daily forecast with friends.",
+    "size": 40.5,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F428.png",
+    "title": "CookBook Pro",
+    "companyName": "GourmetSoft",
+    "id": 7,
+    "description": "CookBook Pro is a pocket kitchen guide with step-by-step recipes and meal plans. Filter recipes by ingredient, dietary need, or prep time. Generate shopping lists automatically and check off items as you shop. Video tutorials walk you through tricky techniques. Save favorites and share recipe cards with friends.",
+    "size": 60.9,
+    "reviews": 750,
+    "ratingAvg": 4.6,
+    "downloads": 29000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F42F.png",
+    "title": "LanguageLingo",
+    "companyName": "LinguaLab",
+    "id": 8,
+    "description": "LanguageLingo offers bite-sized lessons, flashcards, and speaking practice to build fluency. Lessons adapt to your pace with spaced repetition reviews. Use voice recognition to practice pronunciation and get instant feedback. Join conversation groups and daily challenges to keep your streak. Progress charts show improvement over time.",
+    "size": 55.3,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F981.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinTrack",
+    "id": 9,
+    "description": "BudgetBuddy helps you categorize expenses and visualize spending with charts. Set monthly budgets and receive alerts when you approach limits. Connect to bank accounts for automatic categorization or enter transactions manually. Export CSV reports for taxes or record-keeping. Smart suggestions help you find small saving opportunities.",
+    "size": 28.7,
+    "reviews": 500,
+    "ratingAvg": 4.1,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 215 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F984.png",
+    "title": "SleepSound",
+    "companyName": "DreamTech",
+    "id": 10,
+    "description": "SleepSound features a library of ambient soundscapes, white noise, and guided meditations. Mix sounds together and set timers with fade-out. Track sleep sessions and review restful hours in weekly charts. Use smart alarms that wake you gently during light sleep. Downloadable packs let you create custom sleep routines.",
+    "size": 38.2,
+    "reviews": 650,
+    "ratingAvg": 4.4,
+    "downloads": 27000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F9A7.png",
+    "title": "MapQuestor",
+    "companyName": "GeoNav",
+    "id": 11,
+    "description": "MapQuestor offers reliable navigation with offline maps and live traffic updates. Plan routes for driving, walking, or cycling and save favorite spots. Voice guidance keeps you on track while driving hands-free. The app includes alternate routing and estimated arrival times. Save map areas for offline use during trips.",
+    "size": 70.6,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 41000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F994.png",
+    "title": "Readify",
+    "companyName": "BookWorm Apps",
+    "id": 12,
+    "description": "Readify is your digital bookshelf with sync across devices and adjustable reading settings. Import EPUBs or buy from the in-app store. Customize fonts, spacing, and background to reduce eye strain. Use highlights, notes, and bookmarks for study or reference. Track reading goals and share quotes with friends.",
+    "size": 49.0,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": 33000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F41F.png",
+    "title": "StockWatch",
+    "companyName": "MarketPulse",
+    "id": 13,
+    "description": "StockWatch tracks live market quotes, watchlists, and customizable alerts. View interactive charts and historical data with zoom and compare tools. Read curated market news and earnings reports. Create price alerts and follow analyst ratings. Portfolio tracking keeps your investments in one place.",
+    "size": 46.5,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 355 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F419.png",
+    "title": "MusicMix",
+    "companyName": "TuneFlow",
+    "id": 14,
+    "description": "MusicMix streams personalized music and builds playlists from your tastes. Discover new artists with daily curated mixes and radio stations. Download songs for offline listening and create collaborative playlists with friends. Use equalizer presets or custom EQ to shape your sound. Social features let you share what you’re listening to.",
+    "size": 95.1,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F425.png",
+    "title": "TravelGo",
+    "companyName": "WanderTech",
+    "id": 15,
+    "description": "TravelGo helps you plan trips, compare hotels, and build itineraries in one app. Find local experiences and create a day-by-day schedule. Save documents, boarding passes, and reservation info for offline access. Set price alerts for flights and get packing suggestions. Share itineraries with travel companions easily.",
+    "size": 120.8,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F426.png",
+    "title": "CodeLearn",
+    "companyName": "DevAcademy",
+    "id": 16,
+    "description": "CodeLearn offers interactive coding lessons and hands-on projects to help you learn quickly. Run code in the app, get instant feedback, and debug with guided hints. Participate in timed challenges and compare solutions with the community. Progress badges and a curriculum map keep you motivated to reach the next level.",
+    "size": 75.4,
+    "reviews": 1000,
+    "ratingAvg": 4.7,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 72 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F427.png",
+    "title": "PetPals",
+    "companyName": "AnimalSoft",
+    "id": 17,
+    "description": "PetPals helps manage pet care with vaccination reminders and feeding schedules. Keep pet profiles with photos, breed info, and medical history. Set appointment reminders for vets or grooming. Connect with local services and pet communities. Store weight and activity logs for health monitoring.",
+    "size": 34.6,
+    "reviews": 450,
+    "ratingAvg": 4.2,
+    "downloads": 21000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F41D.png",
+    "title": "NewsFlash",
+    "companyName": "QuickMedia",
+    "id": 18,
+    "description": "NewsFlash delivers bite-sized news summaries that you can read in under a minute. Pick the topics you care about and get a daily digest. Expand any summary to read the full article when you have time. Save or listen to stories with text-to-speech. Headline alerts bring breaking stories straight to your lock screen.",
+    "size": 22.7,
+    "reviews": 550,
+    "ratingAvg": 4.1,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F41B.png",
+    "title": "SafeNet VPN",
+    "companyName": "SecureWave",
+    "id": 19,
+    "description": "SafeNet VPN secures your connection with strong encryption and a strict no-logs policy. Choose servers in many countries to access region-locked content safely. Auto-connect protects you on unknown Wi-Fi networks. Monitor speeds, check IP location, and enable split tunneling. Built-in tests help you pick the fastest servers.",
+    "size": 30.3,
+    "reviews": 800,
+    "ratingAvg": 4.4,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F42E.png",
+    "title": "ReminderX",
+    "companyName": "AlertApps",
+    "id": 20,
+    "description": "ReminderX is a focused reminders app with flexible scheduling and repeat options. Create reminders with labels, priority, and notes. Use location-based reminders for errands and chore automation. Daily overviews keep you on top of the day. The clean UI removes distractions for quick setup.",
+    "size": 15.8,
+    "reviews": 400,
+    "ratingAvg": 4.0,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F43B.png",
+    "title": "MindSpace",
+    "companyName": "CalmCo",
+    "id": 21,
+    "description": "MindSpace offers guided meditations, breathing exercises, and short mindful sessions. Choose durations from 1 to 30 minutes to fit any schedule. Track streaks and mood to see trends over time. Calming soundscapes and bite-size tips help reduce stress. Offline sessions are available for travel or low-connectivity times.",
+    "size": 40.0,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": 32000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 495 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F435.png",
+    "title": "FlightFinder",
+    "companyName": "TravelSync",
+    "id": 22,
+    "description": "FlightFinder searches and compares flights quickly, showing best options at a glance. Filter by airline, stops, schedule, and price to refine results. Save preferred routes and set alerts for price drops. Book directly in-app and store travel docs for offline access. View seat maps and baggage rules before you buy.",
+    "size": 82.1,
+    "reviews": 1000,
+    "ratingAvg": 4.3,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F41F.png",
+    "title": "LanguageChat",
+    "companyName": "LinguaChat Inc",
+    "id": 23,
+    "description": "LanguageChat connects learners to native speakers for real conversations and corrections. Practice speaking, listening, and writing with instant feedback. Schedule practice sessions and join topic groups. The app suggests daily phrases tailored to your level. Earn badges and track progress to keep motivated.",
+    "size": 58.2,
+    "reviews": 600,
+    "ratingAvg": 4.4,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 295 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/2764.png",
+    "title": "GardenGuide",
+    "companyName": "GreenThumb Apps",
+    "id": 24,
+    "description": "GardenGuide helps you care for plants with watering reminders, soil tips, and seasonal advice. Identify plants via an image search and get care instructions. Log growth, fertilization, and pruning tasks for each plant. Get reminders for fertilizing and repotting schedules. Join local plant communities to share photos and tips.",
+    "size": 29.4,
+    "reviews": 350,
+    "ratingAvg": 4.2,
+    "downloads": 14000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 145 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/2B50.png",
+    "title": "PuzzlePlay",
+    "companyName": "GameBox",
+    "id": 25,
+    "description": "PuzzlePlay contains a curated mix of brain teasers, logic games, and daily challenges. Start with easy puzzles and work up to expert levels with unique mechanics. Earn hints and rewards for streaks and top scores. Challenge friends on leaderboards and compare best times. Friendly animations and sound effects keep the experience lively.",
+    "size": 67.7,
+    "reviews": 780,
+    "ratingAvg": 4.6,
+    "downloads": 37000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/2600.png",
+    "title": "NewsDigest",
+    "companyName": "DigestMedia",
+    "id": 26,
+    "description": "NewsDigest compiles top stories into a short daily digest you can read quickly. Select the digest time and topics you want each day. Tap to expand summaries into full articles for deeper reading. Save and categorize articles for later reference. Share concise digests with coworkers or friends.",
+    "size": 27.3,
+    "reviews": 500,
+    "ratingAvg": 4.1,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F36A.png",
+    "title": "FitMeal",
+    "companyName": "NutriSoft",
+    "id": 27,
+    "description": "FitMeal crafts meal plans tailored to your goals, allergies, and preferences. Each meal shows nutrition breakdowns like calories and macros. Log meals with a quick selection or photo entry and get feedback. Automatically generate grocery lists from weekly plans. Track weight and metrics to observe progress.",
+    "size": 48.5,
+    "reviews": 650,
+    "ratingAvg": 4.4,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F369.png",
+    "title": "VoiceNotes",
+    "companyName": "QuickRec",
+    "id": 28,
+    "description": "VoiceNotes records audio quickly and organizes clips by tags and folders. Use built-in transcription to convert speech to searchable text. Pause and resume recordings, trim them, and export as audio files. Search within transcripts to find the right moment. Back up recordings to cloud storage for safekeeping.",
+    "size": 37.9,
+    "reviews": 580,
+    "ratingAvg": 4.3,
+    "downloads": 24000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 65 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F308.png",
+    "title": "MovieStream",
+    "companyName": "CineFlow",
+    "id": 29,
+    "description": "MovieStream provides a broad catalog of films and curated playlists for every mood. Browse by genre, decade, or staff picks and save to your watchlist. Download titles for offline viewing and manage subtitles and audio tracks. Personalized recommendations learn from what you watch. Rate movies and share picks with friends.",
+    "size": 110.4,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@16.0.0/color/618x618/1F382.png",
+    "title": "StudyBuddy",
+    "companyName": "EduLink",
+    "id": 30,
+    "description": "StudyBuddy combines flashcards, notes, and a study schedule to help you learn efficiently. Organize content by subject and attach files or voice notes to topics. The spaced repetition system times reviews for best retention. Track total study hours and set reminders to stay consistent. Join group study sessions and share resources with classmates.",
+    "size": 42.8,
+    "reviews": 900,
+    "ratingAvg": 4.6,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 500 }
+    ]
+  }
+]
