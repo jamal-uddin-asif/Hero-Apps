@@ -15,7 +15,7 @@ const useAllApps = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  return {appsData, loading, error}
+  return {appsData, loading, error,setAppsData}
 };
 
 export default useAllApps;

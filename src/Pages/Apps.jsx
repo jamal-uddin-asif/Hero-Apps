@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import useAllApps from "../Hooks/useAllApps";
 import AppCart from "../Components/AppCart";
 import LoadingPage from "./LoadingPage";
 
 const Apps = () => {
-  const { appsData, loading } = useAllApps();
+  const { appsData, loading, setAppsData } = useAllApps();
+  const [search, setSearch] = useState('')
+  console.log(search)
+  const term = search.trim().toLocaleLowerCase();
+  console.log('termed',term)
+
+ 
+    const filteredApps = term? appsData.filter(app=>app.title.toLocaleLowerCase().includes(term)): appsData;
+    console.log(filteredApps)
+    // setAppsData(filteredApps)
 
   return (
     <>
@@ -22,15 +31,33 @@ const Apps = () => {
                 </p>
               </div>
               <div className="flex justify-between">
-                <h2>( 123 ) Apps Found</h2>
-                <input className="border-1" type="search" placeholder="name" />
+                <h2>( {filteredApps.length} ) Apps Found</h2>
+                <label className="input">
+                  <svg
+                    className="h-[1em] opacity-50"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      strokeLinejoin="round"
+                      strokeLinecap="round"
+                      strokeWidth="2.5"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <path d="m21 21-4.3-4.3"></path>
+                    </g>
+                  </svg>
+                  <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
+                </label>
               </div>
             </div>
 
             <div className="grid gap-6 py-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {appsData.map((app) => (
+              {filteredApps.length != 0? filteredApps.map((app) => (
                 <AppCart key={app.id} app={app}></AppCart>
-              ))}
+              )): <h1>No data found</h1>}
             </div>
           </div>
         </div>
