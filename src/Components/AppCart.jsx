@@ -1,11 +1,13 @@
 import React from "react";
 import download from '../assets/icon-downloads.png'
 import rating from '../assets/icon-ratings.png'
+import { Link } from "react-router";
 
 
 const AppCart = ({app}) => {
-    const {title, image, downloads,ratingAvg} = app
+    const {id,title, image, downloads,ratingAvg} = app
   return (
+    <Link to={`/appDetails/${id}`}>
     <div className=" p-3 bg-white space-y-5">
       <div className="bg-[#d9d9d9] rounded-xl">
         <img className="" src={image} alt="" />
@@ -22,6 +24,7 @@ const AppCart = ({app}) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
