@@ -6,13 +6,13 @@ import LoadingPage from "./LoadingPage";
 const Apps = () => {
   const { appsData, loading, setAppsData } = useAllApps();
   const [search, setSearch] = useState('')
-  console.log(search)
+
   const term = search.trim().toLocaleLowerCase();
-  console.log('termed',term)
+  // console.log('termed',term)
 
  
     const filteredApps = term? appsData.filter(app=>app.title.toLocaleLowerCase().includes(term)): appsData;
-    console.log(filteredApps)
+    // console.log(filteredApps)
     // setAppsData(filteredApps)
 
   return (
@@ -23,15 +23,15 @@ const Apps = () => {
         <div className="bg-[#D2D2D240] ">
           <div className="max-w-11/12 mx-auto">
             <div>
-              <div>
-                <h1 className="text-center">Our All Applications</h1>
-                <p className="text-center">
+              <div className="py-13">
+                <h1 className="text-center text-5xl font-bold mb-4">Our All Applications</h1>
+                <p className="text-center text-gray-500">
                   Explore All Apps on the Market developed by us. We code for
                   Millions
                 </p>
               </div>
               <div className="flex justify-between">
-                <h2>( {filteredApps.length} ) Apps Found</h2>
+                <h2 className="font-bold text-2xl">( {filteredApps.length} ) Apps Found</h2>
                 <label className="input">
                   <svg
                     className="h-[1em] opacity-50"

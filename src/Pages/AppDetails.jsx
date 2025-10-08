@@ -12,8 +12,8 @@ const AppDetails = () => {
   // console.log(appId,appsData)
   const clickedApp = appsData.find((app) => app.id === Number(appId));
 
-  console.log(clickedApp);
-  console.log(loading);
+  // console.log(clickedApp);
+  // console.log(loading);
 
   return (
     <>

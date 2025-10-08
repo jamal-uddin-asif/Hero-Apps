@@ -2,8 +2,13 @@ import React from 'react';
 import download from '../assets/icon-downloads.png'
 import rating from '../assets/icon-ratings.png'
 import review from '../assets/icon-review.png'
+import { addAppsToLs } from '../Utility/localStorage';
 
 const AppDetailsCard = ({clickedApp}) => {
+
+  const handleInstall = id =>{
+    addAppsToLs(id)
+  }
 
     return (
        <div className="bg-[#D2D2D240] ">
@@ -25,7 +30,7 @@ const AppDetailsCard = ({clickedApp}) => {
                      </p>
                      
        
-                   <div className="flex gap-9 border-t-1 border-gray-400 w-full py-7">
+                   <div className="flex gap-9 border-t-1 border-gray-400 w-full py-4">
                        
                      <div className="space-y-2">
                        
@@ -47,6 +52,7 @@ const AppDetailsCard = ({clickedApp}) => {
                      </div>
                       
                    </div>
+                   <button onClick={()=>handleInstall(clickedApp.id)} className='bg-[#00d390] text-white font-semibold p-2 rounded-sm hover:scale-110 transition ease-in-out'>Install Now ({clickedApp.size} MB)</button>
                    </div>
                  </div>
 
