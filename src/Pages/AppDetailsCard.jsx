@@ -11,7 +11,7 @@ const AppDetailsCard = ({clickedApp}) => {
   }
 
     return (
-       <div className="bg-[#D2D2D240] ">
+       <div className="bg-[#D2D2D240] min-h-[calc(100vh-210px)]">
                  <div className="md:flex gap-4 max-w-11/12 mx-auto ">
                    <div>
                      <img
@@ -56,9 +56,10 @@ const AppDetailsCard = ({clickedApp}) => {
                    </div>
                  </div>
 
-                 <div className='max-w-11/12 mx-auto space-y-2 border-t-1 border-gray-300 my-5 pt-5'>
+                 <div className='max-w-11/12 mx-auto space-y-2 border-t-1 border-gray-300  py-5'>
                     <h1 className='font-semibold'>Description</h1>
                     <p className='text-gray-500 '>{clickedApp.description}</p>
+                 
                  </div>
                 
              
