@@ -41,8 +41,9 @@ const Installation = () => {
     const sorted = [...apps].sort((a,b)=> b.downloads - a.downloads)
     setApps(sorted)
   }
- },[apps,sort,setSort])
-// sort,apps 
+ },[sort])
+
+
   const handleUninstall = id =>{
     const remining = apps.filter(app=>app.id !== id)
     setApps(remining)

@@ -7,7 +7,7 @@ import LoadingPage from "../Pages/LoadingPage";
 const TrendingApps = () => {
   const { appsData, loading } = useAllApps();
   const slicedApps = [...appsData].slice(0, 8);
-  console.log(slicedApps);
+  // console.log(slicedApps);
   return (
     <div className="bg-[#D2D2D240]">
       <div className="py-20 max-w-11/12 mx-auto ">

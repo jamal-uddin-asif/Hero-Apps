@@ -7,7 +7,6 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
-  Legend,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -26,27 +25,27 @@ const AppDetailsCard = ({ clickedApp }) => {
     addAppsToLs(id);
   };
 
+  
+  
+  const [isDisable, setIsDisable] = useState(false)
+  const handleDisable = id =>{
+    
+    setIsDisable(!isDisable)
+    
+  }
+  
+  
   const [appRating, setAppRating] = useState([])
 
   useEffect(()=>{
     const reversed = []
     const Rating = clickedApp.ratings
     console.log(Rating)
-    Rating.forEach(r=> reversed.push(r))
-    console.log(reversed)
-
-  },[clickedApp])
-
+    Rating.forEach(r=> reversed.unshift(r))
+    console.log(appRating) 
+    setAppRating(reversed)
+  },[])
   
-   const [isDisable, setIsDisable] = useState(false)
-  const handleDisable = id =>{
-
-    setIsDisable(!isDisable)
-//  const isStoredChecked = apps.find(app=> app.id === id) 
-//   if(isStoredChecked){
-//     setIsDisable(!isDisable)
-  }
-//  }
  
 
 
@@ -97,14 +96,16 @@ const AppDetailsCard = ({ clickedApp }) => {
         </div>
       </div>
  {/* Install Now */}
-      <div className="my-7">
+ {/* clickedApp.ratings  */}
+      <div className="my-7 md:max-w-11/12 mx-auto">
+      <h1 className="text-xl font-bold mb-2">Ratings</h1>
         <ResponsiveContainer width={'100%'} height={300}>
-        <BarChart  data={clickedApp.ratings} layout="vertical">
-              <Tooltip></Tooltip>
+        <BarChart  data={appRating} layout="vertical">
               <YAxis  dataKey={'name'} type="category"></YAxis>
-              <XAxis ></XAxis>
+              <XAxis type="number"></XAxis>
               <Bar dataKey={'count'} fill={'#FF8811'}></Bar>
 
+              <Tooltip></Tooltip>
               {/* <Bar dataKey={'Science'} fill=''></Bar> */}
         </BarChart>
         </ResponsiveContainer>
