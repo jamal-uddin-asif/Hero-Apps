@@ -18,8 +18,8 @@ const Header = () => {
             < TiThMenu onClick={handleMenuBar}/>
             <div className={`bg-white absolute  py-3 px-1 rounded-xl ${menu? 'top-13 duration-300': '-top-35 duration-300'}`}>
               <NavLink to={"/"}>Home</NavLink><br />
-              <NavLink to={"apps"}>Apps</NavLink><br />
-              <NavLink to={"installation"}>Installation</NavLink>
+              <NavLink to={"/apps"}>Apps</NavLink><br />
+              <NavLink to={"/installation"}>Installation</NavLink>
             </div>
           </div>
 
@@ -33,8 +33,8 @@ const Header = () => {
 
         <div className="space-x-4 font-semibold hidden md:block">
           <NavLink to={"/"}>Home</NavLink>
-          <NavLink to={"apps"}>Apps</NavLink>
-          <NavLink to={"installation"}>Installation</NavLink>
+          <NavLink to={"/apps"}>Apps</NavLink>
+          <NavLink to={"/installation"}>Installation</NavLink>
         </div>
 
         <Link to={'https://github.com/'} className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white">

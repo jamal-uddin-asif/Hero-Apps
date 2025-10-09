@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import download from '../assets/icon-downloads.png'
 import rating from '../assets/icon-ratings.png'
 
-const InstalledAppCart = ({ app }) => {
+const InstalledAppCart = ({ app,apps,handleUninstall }) => {
+
+ 
+
+
+
+
+
   return (
     // <div className="bg-[#D2D2D240]">
 
@@ -28,7 +35,7 @@ const InstalledAppCart = ({ app }) => {
           </div>
         </div>
         <div>
-            <button  className="btn bg-[#00D390] text-white hover:scale-105 transiton ease-in-out">Uninstall</button>
+            <button onClick={()=>handleUninstall(app.id)} className="btn bg-[#00D390] text-white hover:scale-105 transiton ease-in-out">Uninstall</button>
         </div>
       </div> 
 
