@@ -4,18 +4,28 @@ import AppCart from "../Components/AppCart";
 import LoadingPage from "./LoadingPage";
 import AppNotFound from "./AppNotFound";
 import { Link } from "react-router";
+import SearchLoading from "./SearchLoading";
 
 const Apps = () => {
   const { appsData, loading, setAppsData } = useAllApps();
   const [search, setSearch] = useState('')
-
+  const [searchLoading, setSearchLoading] = useState(false)
   const term = search.trim().toLocaleLowerCase();
-  // console.log('termed',term)
 
  
+
+
+  const handleSearch =(value)=>{
+    setSearchLoading(true)
+    setTimeout(() => {
+      setSearchLoading(false)
+    }, 1000);
+    setSearch(value)
+
+  }
+ 
     const filteredApps = term? appsData.filter(app=>app.title.toLocaleLowerCase().includes(term)): appsData;
-    // console.log(filteredApps)
-    // setAppsData(filteredApps)
+  
 
   return (
     <>
@@ -51,15 +61,16 @@ const Apps = () => {
                       <path d="m21 21-4.3-4.3"></path>
                     </g>
                   </svg>
-                  <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
+                  <input value={search} onChange={(e)=>handleSearch(e.target.value)} type="search" required placeholder="Search" />
                 </label>
               </div>
             </div>
 
             <div className="grid gap-6 py-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {loading && <LoadingPage></LoadingPage>} { filteredApps.length != 0? filteredApps.map((app) => (
+              {searchLoading ? <div className="col-span-full"><SearchLoading ></SearchLoading></div> : filteredApps.length != 0? filteredApps.map((app) => (
                 <AppCart key={app.id} app={app}></AppCart>
               )):<Link className="col-span-full" to={'/appNotFound'}> <AppNotFound></AppNotFound></Link>}
+             
             </div>
           </div>
         </div>
@@ -71,4 +82,5 @@ const Apps = () => {
   //               <AppCart key={app.id} app={app}></AppCart>
   //             )):<Link className="col-span-full" to={'/appNotFound'}> <AppNotFound></AppNotFound></Link>}
 
+  
 export default Apps;

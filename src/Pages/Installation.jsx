@@ -3,6 +3,7 @@ import { getAppsFromLS, removeAppFromLS } from "../Utility/localStorage";
 import useAllApps from "../Hooks/useAllApps";
 import InstalledAppCart from "../Components/InstalledAppCart";
 import LoadingPage from "./LoadingPage";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const { appsData, loading } = useAllApps();
@@ -48,6 +49,7 @@ const Installation = () => {
     const remining = apps.filter(app=>app.id !== id)
     setApps(remining)
     removeAppFromLS(id)
+    toast.success('Uninstall Successfully')
   }
 
   return (

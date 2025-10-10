@@ -13,7 +13,7 @@ const AppDetails = () => {
   // console.log(appId,appsData)
   const clickedApp = appsData.find((app) => app.id === Number(appId));
 
-  console.log(appId);
+  // console.log(appId);
   // console.log(loading);
   if(!clickedApp) return <AppNotFound></AppNotFound>
 

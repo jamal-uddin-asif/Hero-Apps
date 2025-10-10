@@ -20,7 +20,7 @@ import { toast } from "react-toastify";
 
 
 const AppDetailsCard = ({ clickedApp }) => {
-  console.log(clickedApp)
+
   const handleInstall = (id) => {
     addAppsToLs(id);
   };
@@ -38,9 +38,9 @@ const AppDetailsCard = ({ clickedApp }) => {
   useEffect(()=>{
     const reversed = []
     const Rating = clickedApp.ratings
-    console.log(Rating)
+    // console.log(Rating)
     Rating.forEach(r=> reversed.unshift(r))
-    console.log(appRating) 
+    // console.log(appRating) 
     setAppRating(reversed)
   },[])
   
@@ -52,7 +52,6 @@ const AppDetailsCard = ({ clickedApp }) => {
   const [isStored, setIsStored] = useState(false)
   useEffect(()=>{
     const storedApps = getAppsFromLS()
-    console.log(storedApps)
     const isMatched = storedApps.some(appId=> appId === clickedApp.id)
     setIsStored(isMatched)
 
