@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
-import { addAppsToLs } from "../Utility/localStorage";
+import { addAppsToLs, getAppsFromLS } from "../Utility/localStorage";
 import {
   Bar,
   BarChart,
@@ -29,9 +29,7 @@ const AppDetailsCard = ({ clickedApp }) => {
   
   const [isDisable, setIsDisable] = useState(false)
   const handleDisable = id =>{
-    
     setIsDisable(!isDisable)
-    
   }
   
   
@@ -46,6 +44,19 @@ const AppDetailsCard = ({ clickedApp }) => {
     setAppRating(reversed)
   },[])
   
+  const [count, setCount] = useState(0)
+  const handleCountForDisable = ()=>{
+    setCount(count + 1)
+  }
+
+  const [isStored, setIsStored] = useState(false)
+  useEffect(()=>{
+    const storedApps = getAppsFromLS()
+    console.log(storedApps)
+    const isMatched = storedApps.some(appId=> appId === clickedApp.id)
+    setIsStored(isMatched)
+
+  },[count])
  
 
 
@@ -87,11 +98,11 @@ const AppDetailsCard = ({ clickedApp }) => {
               <h2 className="font-bold text-2xl">{clickedApp.reviews}</h2>
             </div>
           </div>
-          <button disabled={isDisable}
-            onClick={() => {handleInstall(clickedApp.id);handleDisable();toast.success('Installed successfully')}}
-            className="bg-[#00d390] text-white font-semibold p-2 rounded-sm hover:scale-110 transition ease-in-out"
+          <button disabled={isStored}
+            onClick={() => {handleInstall(clickedApp.id);handleDisable();toast.success('Installed successfully');handleCountForDisable()}}
+            className={`bg-[#00d390] text-white font-semibold p-2 rounded-sm ${isStored || 'hover:scale-110 transition ease-in-out'}`}
           >
-            {isDisable?'Installed':`Install Now (${clickedApp.size} MB)`} 
+            {isStored?'Installed':`Install Now (${clickedApp.size} MB)`} 
           </button>
         </div>
       </div>
