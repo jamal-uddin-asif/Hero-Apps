@@ -5,6 +5,7 @@ import useAllApps from "../Hooks/useAllApps";
 
 import LoadingPage from "./LoadingPage";
 import AppDetailsCard from "./AppDetailsCard";
+import AppNotFound from "./AppNotFound";
 
 const AppDetails = () => {
   const { appId } = useParams();
@@ -12,8 +13,9 @@ const AppDetails = () => {
   // console.log(appId,appsData)
   const clickedApp = appsData.find((app) => app.id === Number(appId));
 
-  // console.log(clickedApp);
+  console.log(appId);
   // console.log(loading);
+  if(!clickedApp) return <AppNotFound></AppNotFound>
 
   return (
     <>

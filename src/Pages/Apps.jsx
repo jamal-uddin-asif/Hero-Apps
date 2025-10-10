@@ -57,7 +57,7 @@ const Apps = () => {
             </div>
 
             <div className="grid gap-6 py-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {filteredApps.length != 0? filteredApps.map((app) => (
+              {loading && <LoadingPage></LoadingPage>} { filteredApps.length != 0? filteredApps.map((app) => (
                 <AppCart key={app.id} app={app}></AppCart>
               )):<Link className="col-span-full" to={'/appNotFound'}> <AppNotFound></AppNotFound></Link>}
             </div>
@@ -67,5 +67,8 @@ const Apps = () => {
     </>
   );
 };
+  // {filteredApps.length != 0? filteredApps.map((app) => (
+  //               <AppCart key={app.id} app={app}></AppCart>
+  //             )):<Link className="col-span-full" to={'/appNotFound'}> <AppNotFound></AppNotFound></Link>}
 
 export default Apps;
