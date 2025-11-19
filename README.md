@@ -31,7 +31,7 @@ This application is for exploring apps.You can install any app for you.and you c
 - Sort by size
 
 ## Run locally
-- Clone the project
+- Clone the project, git clone https://github.com/jamal-uddin-asif/Hero-Apps.git
 - Go to project directory, cd yourrepo
 - Install dependencies,npm install
 - npm run dev
