@@ -39,5 +39,5 @@ This application is for exploring apps.You can install any app for you.and you c
 
 
 
-- Description: This app created by Myself Asif.this was a beautiful experience for me.you can use this app any device like mobile,tablet,pc.Explore my app and enjoy the feature.THANK YOU...
+Description:A web application for apps .User can install a app and see details of any app, user can uninstall there apps. This app created by Myself Asif.this was a beautiful experience for me.you can use this app any device like mobile,tablet,pc.Explore my app and enjoy the feature.THANK YOU...
 
